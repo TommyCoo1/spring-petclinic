@@ -28,7 +28,7 @@ import jakarta.validation.constraints.NotBlank;
 public class Person extends BaseEntity {
 
 	@Column
-	@NotBlank
+	// @NotBlank
 	private String firstName;
 
 	@Column
